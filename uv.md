@@ -119,7 +119,7 @@
 - **Run a command or script in the Virtual Environment:**
       
     ```bash
-    uv run [command] script.py
+    uv run command|script.py
     ```
 
 
