@@ -128,7 +128,8 @@
 - **Upgrade a Package to the Latest Version:**
 
   ```bash
-  uv upgrade package_name
+  uv lock --upgrade-package <package>
+  uv sync
   ```
 
   This command updates the specified package to the latest version available.
@@ -136,7 +137,8 @@
 - **Upgrade All Packages to the Latest Versions:**
 
   ```bash
-  uv upgrade --all
+  uv lock --upgrade
+  uv sync
   ```
 
     This command updates all packages in the project to their latest versions.
