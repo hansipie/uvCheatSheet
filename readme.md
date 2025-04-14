@@ -57,6 +57,12 @@
 
   This adds the specified package to the project's dependencies in `pyproject.toml` and updates the `uv.lock` file.
 
+- **Add all dependencies from a `requirements.txt` file**
+
+  ```bash
+  uv add -r requirements.txt
+  ```
+
 - **Remove a Dependency from the Project:**
 
   ```bash
@@ -141,7 +147,7 @@
   uv sync
   ```
 
-    This command updates all packages in the project to their latest versions.
+  This command updates all packages in the project to their latest versions.
 
 - **Write requirements.txt File:**
 
